@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<!--
+  ════════════════════════════════════════════════════════════════════════
+  © 2026 AETHERON — VŠECHNA PRÁVA VYHRAZENA / ALL RIGHTS RESERVED
+  ────────────────────────────────────────────────────────────────────────
+  Design, rozvržení a zdrojový kód (HTML / CSS / JS) tohoto webu jsou
+  autorským dílem Aetheron. Jde o UKÁZKU NÁVRHU vytvořenou pro Kloubec.
+  Neoprávněné kopírování, stahování, reprodukce ani použití jakékoli části
+  — vcelku i po částech — je zakázáno. / Unauthorized copying, downloading,
+  reproduction or reuse of any part of this site is strictly prohibited.
+  ════════════════════════════════════════════════════════════════════════
+-->
+<html lang="cs">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kloubec — nonstop havarijní a instalační servis, Praha | od 1991</title>
+<meta name="description" content="Voda, elektro, topení a plyn, rekonstrukce, zateplení i technická správa budov. Jedna firma pro celý dům a nonstop havarijní pohotovost pro Prahu. Kloubec, od roku 1991." />
+<meta name="author" content="Aetheron" />
+<meta name="copyright" content="© 2026 Aetheron — všechna práva vyhrazena. Neoprávněné použití zakázáno." />
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+<meta name="googlebot" content="noindex, nofollow" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body id="top">
+
+<!-- ══════════ NAV (transparent over hero, solidifies on scroll) ══════════ -->
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="Kloubec — domů">
+    <svg class="brand__mark" viewBox="0 0 46 30" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M4 26 L23 8 L42 26" />
+      <path d="M11 26 L23 15 L35 26" opacity=".72" />
+      <path d="M17.5 26 L23 21 L28.5 26" opacity=".45" />
+    </svg>
+    <span class="brand__name">KLOUBEC</span>
+  </a>
+
+  <nav class="nav__links" aria-label="Hlavní navigace">
+    <a href="#pohotovost">Pohotovost</a>
+    <a href="#sluzby">Služby</a>
+    <a href="#prace">Práce</a>
+    <a href="#firma">Firma</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <a class="nav__call" href="tel:+420602489495">
+    <span class="livedot" aria-hidden="true"></span>
+    <span class="nav__call-k">Nonstop</span>
+    <span class="nav__call-n">+420 602 489 495</span>
+  </a>
+
+  <button class="burger" id="burger" aria-label="Otevřít menu" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+</header>
+
+<!-- mobile menu -->
+<div class="mobmenu" id="mobmenu" aria-hidden="true">
+  <a href="#pohotovost">Pohotovost</a>
+  <a href="#sluzby">Služby</a>
+  <a href="#prace">Práce</a>
+  <a href="#firma">Firma</a>
+  <a href="#kontakt">Kontakt</a>
+</div>
+
+<!-- ══════════ HERO — nothing but the work ══════════ -->
+<section class="hero">
+  <div class="hero__media">
+    <img src="images/elec1.jpg" alt="Technik Kloubec při práci na elektroinstalaci" fetchpriority="high" />
+  </div>
+  <div class="hero__veil" aria-hidden="true"></div>
+
+  <div class="hero__foot">
+    <p class="hero__kick">Nonstop havarijní a&nbsp;instalační servis · Praha · od&nbsp;1991</p>
+    <h1 class="hero__line">Když něco přestane&nbsp;fungovat,<br /><span>jsme u&nbsp;toho.</span></h1>
+  </div>
+
+  <a class="scrollcue" href="#pohotovost" aria-label="Posunout dolů">
+    <span>Havarijní pohotovost</span>
+    <span class="scrollcue__bar" aria-hidden="true"></span>
+  </a>
+</section>
+
+<!-- ══════════ POHOTOVOST — the core purpose ══════════ -->
+<section class="emg" id="pohotovost">
+  <div class="emg__inner">
+    <span class="eyebrow eyebrow--sig">Havarijní pohotovost</span>
+    <p class="emg__head">
+      Prasklá voda, výpadek proudu, studený radiátor
+      nebo&nbsp;ucpaná kanalizace?
+    </p>
+    <p class="emg__sub">
+      Zvedneme telefon a&nbsp;přijedeme. Zastavíme škodu a&nbsp;závadu opravíme —
+      nonstop, 7&nbsp;dní v&nbsp;týdnu, po&nbsp;celé Praze.
+    </p>
+    <a class="callbig" href="tel:+420602489495">
+      <span class="livedot" aria-hidden="true"></span>
+      +420 602 489 495
+    </a>
+    <p class="emg__note">Vlastní technika · rychlý výjezd · i&nbsp;o&nbsp;víkendu a&nbsp;svátcích</p>
+  </div>
+</section>
+
+<!-- ══════════ SLUŽBY — purpose-framed, quiet ══════════ -->
+<section class="svc" id="sluzby">
+  <div class="svc__head">
+    <span class="eyebrow">Co pro vás uděláme</span>
+    <h2 class="h-sec">Jedna firma pro&nbsp;celý dům.</h2>
+    <p class="lede">
+      Instalace, rekonstrukce i&nbsp;průběžná správa — od&nbsp;kapajícího kohoutku
+      po&nbsp;kompletní rekonstrukci bytového jádra. Nemusíte shánět pět
+      různých řemeslníků.
+    </p>
+  </div>
+
+  <ul class="svc__list">
+    <li class="svc__item">
+      <h3>Voda, topení &amp;&nbsp;plyn</h3>
+      <p>Vodoinstalace a&nbsp;rozvody, kotle, solární systémy a&nbsp;tepelná čerpadla — návrh, montáž i&nbsp;pravidelný servis.</p>
+    </li>
+    <li class="svc__item">
+      <h3>Elektroinstalace</h3>
+      <p>Nové rozvody, opravy a&nbsp;revize, rozvaděče a&nbsp;bezpečné připojení spotřebičů i&nbsp;klimatizace.</p>
+    </li>
+    <li class="svc__item">
+      <h3>Rekonstrukce bytů &amp;&nbsp;jader</h3>
+      <p>Kompletní přestavby na&nbsp;klíč — od&nbsp;bourání a&nbsp;instalací přes obklady až&nbsp;po&nbsp;finální úklid.</p>
+    </li>
+    <li class="svc__item">
+      <h3>Zateplení &amp;&nbsp;fasády</h3>
+      <p>Zateplení objektů, sanace vlhkého zdiva a&nbsp;obnova fasád s&nbsp;dlouhou životností.</p>
+    </li>
+    <li class="svc__item">
+      <h3>Obklady, dlažby &amp;&nbsp;podlahy</h3>
+      <p>Obklady a&nbsp;dlažby, lité podlahy a&nbsp;parkety — přesné provedení bez&nbsp;kompromisů.</p>
+    </li>
+    <li class="svc__item">
+      <h3>Okna, dveře &amp;&nbsp;truhlářství</h3>
+      <p>Renovace oken a&nbsp;dveří, montáž kuchyní a&nbsp;nábytku na&nbsp;míru, malířské práce.</p>
+    </li>
+    <li class="svc__item">
+      <h3>Technická správa budov</h3>
+      <p>Průběžná péče o&nbsp;objekt — drobné opravy i&nbsp;větší zásahy pod&nbsp;jedním kontaktem.</p>
+    </li>
+    <li class="svc__item">
+      <h3>Strojní čištění kanalizace</h3>
+      <p>Mechanické čištění odpadů a&nbsp;rychlé zprůchodnění při&nbsp;havárii, nonstop.</p>
+    </li>
+  </ul>
+</section>
+
+<!-- ══════════ PRÁCE — cinematic, curated gallery ══════════ -->
+<section class="work" id="prace">
+  <div class="work__head">
+    <span class="eyebrow eyebrow--ondark">Práce, po&nbsp;které je&nbsp;vidět</span>
+    <h2 class="h-sec h-sec--ondark">Každou zakázku vedeme od&nbsp;zaměření po&nbsp;předání.</h2>
+  </div>
+
+  <div class="work__grid">
+    <figure class="shot shot--wide">
+      <img src="images/plumb1.jpg" alt="Rozvody vody, topení a plynu" loading="lazy" />
+      <figcaption>Rozvody vody, topení &amp;&nbsp;plynu</figcaption>
+    </figure>
+    <figure class="shot shot--tall">
+      <img src="images/panel1.jpg" alt="Rozvaděč a elektroinstalace" loading="lazy" />
+      <figcaption>Rozvaděč &amp;&nbsp;elektroinstalace</figcaption>
+    </figure>
+    <figure class="shot">
+      <img src="images/bath3.jpg" alt="Rekonstrukce koupelny na klíč" loading="lazy" />
+      <figcaption>Koupelna na&nbsp;klíč</figcaption>
+    </figure>
+    <figure class="shot">
+      <img src="images/plumb3.jpg" alt="Vodoinstalace a baterie" loading="lazy" />
+      <figcaption>Vodoinstalace &amp;&nbsp;baterie</figcaption>
+    </figure>
+    <figure class="shot shot--wide">
+      <img src="images/panel3.jpg" alt="Technik při zásahu na elektroinstalaci" loading="lazy" />
+      <figcaption>Zásah na&nbsp;elektroinstalaci</figcaption>
+    </figure>
+    <figure class="shot">
+      <img src="images/reno2.jpg" alt="Obytný prostor po rekonstrukci" loading="lazy" />
+      <figcaption>Obytný prostor po&nbsp;rekonstrukci</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ══════════ FIRMA ══════════ -->
+<section class="firm" id="firma">
+  <figure class="firm__media">
+    <img src="images/worker1.jpg" alt="Zaměření a příprava zakázky nad výkresem" loading="lazy" />
+  </figure>
+  <div class="firm__body">
+    <span class="eyebrow">Firma</span>
+    <h2 class="h-sec">Ve&nbsp;stavebnictví od&nbsp;roku 1991.</h2>
+    <p class="firm__lede">
+      Za&nbsp;ta léta jsme prošli stovkami bytů, domů i&nbsp;havárií
+      a&nbsp;naučili se dělat věci tak, aby se&nbsp;k&nbsp;nim nemuselo vracet.
+    </p>
+    <dl class="facts">
+      <div>
+        <dt>Rozsah</dt>
+        <dd>Jeden partner pro&nbsp;celý dům — instalace, rekonstrukce i&nbsp;správa.</dd>
+      </div>
+      <div>
+        <dt>Vybavení</dt>
+        <dd>Pracujeme s&nbsp;vlastní technikou a&nbsp;nářadím, takže jsme rychlí a&nbsp;nezávislí.</dd>
+      </div>
+      <div>
+        <dt>Kvalifikace</dt>
+        <dd>Zkušená parta se&nbsp;speciálními kvalifikačními osvědčeními a&nbsp;dlouholetou praxí.</dd>
+      </div>
+      <div>
+        <dt>Přístup</dt>
+        <dd>Domluvíme se rychle a&nbsp;jasně, ceny jsou férové a&nbsp;předem dané, termín platí.</dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+<!-- ══════════ KONTAKT — nonstop help first ══════════ -->
+<section class="cta" id="kontakt">
+  <div class="cta__lead">
+    <span class="eyebrow eyebrow--sig">Ozvěte se</span>
+    <h2 class="cta__head">Řekněte nám, co&nbsp;je&nbsp;potřeba.</h2>
+    <p class="cta__sub">Zavolejte, nebo napište pár řádků — ozveme se a&nbsp;domluvíme nezávaznou prohlídku.</p>
+    <a class="callbig callbig--onlight" href="tel:+420602489495">
+      <span class="livedot" aria-hidden="true"></span>
+      +420 602 489 495
+    </a>
+  </div>
+
+  <div class="cta__panel">
+    <form class="form" onsubmit="return false;">
+      <label>Jméno
+        <input type="text" name="jmeno" placeholder="Vaše jméno" autocomplete="name" />
+      </label>
+      <label>Telefon
+        <input type="tel" name="telefon" placeholder="+420…" autocomplete="tel" />
+      </label>
+      <label>Co potřebujete
+        <textarea name="zprava" rows="3" placeholder="Např. rekonstrukce koupelny, výměna kotle, revize elektro, havárie vody…"></textarea>
+      </label>
+      <button type="submit" class="btn">Odeslat poptávku</button>
+    </form>
+
+    <ul class="meta">
+      <li><span>Sídlo</span>Za&nbsp;Potokem 46/4, Praha&nbsp;10, 106&nbsp;00</li>
+      <li><span>Fakturace</span>V&nbsp;Zahrádkách 1952/50, Praha&nbsp;3, 130&nbsp;00</li>
+      <li><span>Pohotovost</span>Nonstop, i&nbsp;o&nbsp;víkendu a&nbsp;svátcích</li>
+      <li><span>Web</span>www.kloubec.cz</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer class="foot">
+  <a class="brand brand--foot" href="#top" aria-label="Kloubec">
+    <svg class="brand__mark" viewBox="0 0 46 30" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M4 26 L23 8 L42 26" />
+      <path d="M11 26 L23 15 L35 26" opacity=".72" />
+      <path d="M17.5 26 L23 21 L28.5 26" opacity=".45" />
+    </svg>
+    <span class="brand__name">KLOUBEC</span>
+  </a>
+  <p class="foot__tag">Stavební &amp;&nbsp;instalační servis · Praha · od&nbsp;1991</p>
+  <p class="foot__copy">© Kloubec · Voda · Elektro · Topení · Plyn · Rekonstrukce · Správa&nbsp;budov</p>
+  <p class="foot__rights">Design &amp;&nbsp;kód © 2026 <strong>Aetheron</strong> · Ukázka návrhu pro&nbsp;Kloubec · Všechna práva vyhrazena · Neoprávněné kopírování&nbsp;zakázáno</p>
+</footer>
+
+<!-- ══════════ MOBILE STICKY CALL ══════════ -->
+<a class="mcall" href="tel:+420602489495">
+  <span class="livedot" aria-hidden="true"></span>
+  Volat nonstop · +420 602 489 495
+</a>
+
+<!-- ══════════ WATERMARK (ukázka návrhu) ══════════ -->
+<div class="wm" aria-hidden="true">Ukázka návrhu · Aetheron</div>
+
+<script>
+  // nav: transparent over hero → solid on scroll
+  const nav = document.getElementById('nav');
+  const setNav = () => document.body.classList.toggle('scrolled', window.scrollY > window.innerHeight * 0.62);
+  setNav(); addEventListener('scroll', setNav, { passive:true });
+
+  // mobile menu
+  const burger = document.getElementById('burger');
+  const mm = document.getElementById('mobmenu');
+  const toggle = (open) => {
+    const s = open ?? !document.body.classList.contains('menu-open');
+    document.body.classList.toggle('menu-open', s);
+    mm.setAttribute('aria-hidden', String(!s));
+    burger.setAttribute('aria-expanded', String(s));
+  };
+  burger.addEventListener('click', () => toggle());
+  mm.querySelectorAll('a').forEach(a => a.addEventListener('click', () => toggle(false)));
+
+  // restrained reveal — images + section heads only (not everything)
+  const els = document.querySelectorAll('.shot, .svc__item, .firm__media, .facts div, .emg__inner, .cta__lead, .cta__panel, .svc__head, .work__head');
+  if ('IntersectionObserver' in window) {
+    els.forEach(el => el.classList.add('rise'));
+    const io = new IntersectionObserver((ents) => {
+      ents.forEach(e => { if (e.isIntersecting){ e.target.classList.add('seen'); io.unobserve(e.target); } });
+    }, { threshold:0.12, rootMargin:'0px 0px -8% 0px' });
+    els.forEach(el => io.observe(el));
+  }
+</script>
+
+<!-- ══════════ OWNERSHIP / ANTI-COPY (deterrent layer) ══════════ -->
+<script>
+  (function(){
+    // Ownership notice for anyone who opens the console.
+    try{
+      console.log('%c© 2026 Aetheron — všechna práva vyhrazena.',
+        'color:#ef4a25;font:700 15px/1.4 system-ui,sans-serif');
+      console.log('%cDesign a kód tohoto webu jsou chráněné autorské dílo. Neoprávněné kopírování, stahování nebo použití je zakázáno.',
+        'color:#8a8a8a;font:12px/1.5 system-ui,sans-serif');
+    }catch(e){}
+
+    var stop = function(e){ e.preventDefault(); };
+
+    // Block context menu (Uložit obrázek / Zobrazit zdroj / Prozkoumat).
+    document.addEventListener('contextmenu', stop, {capture:true});
+
+    // Block dragging images out of the page.
+    document.addEventListener('dragstart', function(e){
+      if (e.target && e.target.tagName === 'IMG') e.preventDefault();
+    }, {capture:true});
+
+    // Block save-page / view-source / devtools keyboard shortcuts.
+    document.addEventListener('keydown', function(e){
+      var k = (e.key || '').toLowerCase();
+      if ((e.ctrlKey || e.metaKey) && (k === 's' || k === 'u')) return stop(e);        // Ctrl/Cmd+S, +U
+      if ((e.ctrlKey || e.metaKey) && e.shiftKey && (k==='i'||k==='j'||k==='c')) return stop(e); // devtools
+      if (k === 'f12') return stop(e);
+    }, {capture:true});
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+© 2026 AETHERON — ALL RIGHTS RESERVED / VŠECHNA PRÁVA VYHRAZENA
+================================================================
+
+This website — its design, layout, structure, source code (HTML, CSS,
+JavaScript) and all original graphic/interface assets — is the proprietary
+work of Aetheron. It was created as a DESIGN PREVIEW ("ukázka návrhu")
+presented to Kloubec, and is not licensed for production use.
+
+Unauthorized copying, downloading, scraping, reproduction, redistribution,
+hosting or reuse of any part of this website — in whole or in part, by any
+means — is strictly prohibited without prior written permission of Aetheron.
+
+--- CS ---------------------------------------------------------
+
+Tento web — jeho design, rozvržení, struktura, zdrojový kód (HTML, CSS,
+JavaScript) a veškeré původní grafické prvky — je autorským dílem Aetheron.
+Jde o ukázku návrhu předloženou firmě Kloubec; není licencován k ostrému
+provozu.
+
+Neoprávněné kopírování, stahování, reprodukce, šíření, hostování nebo použití
+jakékoli části tohoto webu — vcelku i po částech, jakýmkoli způsobem — je bez
+předchozího písemného souhlasu Aetheron zakázáno.
+
+----------------------------------------------------------------
+
+Client brand elements, company data and photographs supplied by the client
+remain the property of their respective owner (Kloubec).
+
+Kontakt / Contact: Aetheron
